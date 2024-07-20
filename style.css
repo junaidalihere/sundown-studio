@@ -349,26 +349,16 @@ transform: translate(-10%,10%);
     top: 0;
 }
 
-#img-fixd{
-    background-color: red;
-    width: 30vw;
-    height: 24vw;
-    border-radius: 6px;
-    position: fixed;
-   background-position:center;
-   background-size: cover;
-   z-index: 99;
-    left: 50%;
-    top: 30%;
-    display: none;
-    object-fit: cover;
-}
 
 .page4{
     width: 100%;
-    min-height: 40vh;
+    min-height: 50vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
 
-background-color: aqua;
+
 }
 .swiper {
     width: 100%;
@@ -384,11 +374,12 @@ background-color: aqua;
     height: 100%;
     text-align: center;
     font-size: 18px;
-    background-color: #EFEAE3;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 9vw;
+    flex-direction: column;
+
   }
 
   .swiper-slide img {
@@ -402,33 +393,18 @@ background-color: aqua;
              width: 20%;
   }
 
-#gsap{
-    width: 100px;
-    height: 100px;
-    background-color: orangered;
-    border-radius: 50%;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3vw;
-    gap: 6vw;
-    scale: 0;
-    opacity: 0;
-    transform: translate(-50%,-50%);
-}
 
 
 
  .page5{
-    /* margin-top: 5vw ; */
+    
     width: 100%;
     min-height: 100vh;
     background-color: black;
     display: flex;
     flex-direction: column;
   color: white;
-  /* padding: 0vw 2vw; */
+  
 } 
 
 
@@ -468,9 +444,6 @@ position: relative;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    /* height: 9vh; */
-    /* margin-top: 3vw;
-    margin-bottom: 2vw; */
     gap: 6vw;
     padding: 2vw;
 }
@@ -479,11 +452,11 @@ position: relative;
     font-size: 2vw;
 }
 .navber-responsive{
-    /* background-color: rgba(70, 68, 68, 0.594); */
+  
     width: 100%;
     height: 100vh;
     position: fixed;
-    z-index: 10;
+    z-index: 10000;
     top: -180%;
     transition: all ease 0.3s;
 }
@@ -608,7 +581,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     
     .swiper-slide {
            width: 100%;  
-           height: 50%; 
+           height: 100%; 
     }
   
 
@@ -702,6 +675,11 @@ width: 61%;
     margin-top: 2vw;
     width: 82vw;
 }
+
+.page3 .element h1 {
+    font-size: 4vw;
+  
+}
 }
 
 
@@ -756,6 +734,11 @@ width: 61%;
     .page2 .center .right p {
         margin-top: 4vw;
       
+    }
+
+    .page3 .element h1 {
+        /* font-size: 3vw; */
+       
     }
 }
 
